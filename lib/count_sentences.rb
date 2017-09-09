@@ -23,7 +23,7 @@ class String
       end
     end
 
-    count.each_with_index do |i, index|
+    count.each do |i|
       count.push.i.split('?')
     end
 
