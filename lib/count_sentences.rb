@@ -36,7 +36,6 @@ class String
 
     count.length
 
-
   end
 end
 
