@@ -23,19 +23,8 @@ class String
       end
     end
 
-    count.each do |i|
-      count.push(i.split('?'))
-    end
-
-    count.each_with_index do |i,index|
-      if i == ""
-        count.delete_at(index)
-      end
-    end
-
     count.length
-    binding.pry
   end
 end
 
-"This is a sentence.. So is this? So is this.".count_sentences
+
