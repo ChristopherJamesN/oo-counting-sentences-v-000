@@ -17,10 +17,10 @@ class String
   def count_sentences
     count = self.split('.')
     count.each do |i|
-      i.split('?')
+      count[i]=i.split('?')
     end
     count.each do |i|
-      i.split('!')
+      count[i]=i.split('!')
     end
     count.length
   end
