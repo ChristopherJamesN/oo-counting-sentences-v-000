@@ -32,5 +32,7 @@ class String
     end
 
     count.length
+
+    binding.pry
   end
 end
