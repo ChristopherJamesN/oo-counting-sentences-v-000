@@ -16,6 +16,11 @@ class String
 
   def count_sentences
     count = self.split('.')
+    count.each do |i|
+      if i == ""
+        i.remove
+      end
+    end
     count.length
     binding.pry
   end
