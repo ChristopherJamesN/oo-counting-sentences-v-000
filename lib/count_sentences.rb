@@ -26,6 +26,8 @@ class String
 
     count.each do |i|
       placeholder=(i.split("!"))
+      if placeholder.length != 1
+        count.push(placeholder[0])
     end
 
     count.each_with_index do |i,index|
