@@ -24,7 +24,7 @@ class String
     end
 
     count.each_with_index do |i, index|
-      count[index]=i.split('?')
+      count.push.i.split('?')
     end
 
     count.each_with_index do |i,index|
