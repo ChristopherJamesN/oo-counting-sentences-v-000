@@ -16,9 +16,9 @@ class String
 
   def count_sentences
     count = self.split('.')
-    count.each do |i|
+    count.each_with_index do |i,index|
       if i == ""
-        count = count[i].remove
+        count = count[index].remove
       end
     end
     count.length
