@@ -15,7 +15,9 @@ class String
   end
 
   def count_sentences
-    count = self.split(".","?")
+    count = self.split(".")
+
+    count.each do |i,|
 
     count.each_with_index do |i,index|
       if i == ""
