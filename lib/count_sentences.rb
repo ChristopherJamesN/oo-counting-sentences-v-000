@@ -19,6 +19,10 @@ class String
 
     count.each do |i|
       placeholder=(i.split("?"))
+      if placeholder.length != 1
+        count.push(placeholder)
+      end
+    end
           binding.pry
     end
 
