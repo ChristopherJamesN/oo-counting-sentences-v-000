@@ -20,3 +20,5 @@ class String
     binding.pry
   end
 end
+
+"This is a sentence. So is this. So is this.".count_sentences
