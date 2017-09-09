@@ -21,13 +21,7 @@ class String
       placeholder=(i.split("?"))
       if placeholder.length != 1
         count.push(placeholder[0])
-      end
-    end
-
-    count.each do |i|
-      placeholder=(i.split("!"))
-      if placeholder.length != 1
-        count.push(placeholder[0])
+        count.push(placeholder[1])
       end
     end
 
@@ -42,4 +36,3 @@ class String
   end
 end
 
-"This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
