@@ -22,7 +22,6 @@ class String
       if placeholder.length != 1
         count.push(placeholder)
       end
-          binding.pry
     end
 
     count.each do |i|
