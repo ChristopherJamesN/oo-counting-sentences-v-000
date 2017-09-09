@@ -21,4 +21,4 @@ class String
   end
 end
 
-"This is a sentence. So is this? So is this.".count_sentences
+"This is a sentence.. So is this? So is this.".count_sentences
