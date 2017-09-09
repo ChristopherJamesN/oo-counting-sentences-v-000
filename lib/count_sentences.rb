@@ -18,11 +18,11 @@ class String
     count = self.split(".")
 
     count.each do |i|
-      i.split("?")
+      count.push(i.split("?"))
     end
 
     count.each do |i|
-      i.split("!")
+      count.push(i.split("!"))
     end
 
     count.each_with_index do |i,index|
