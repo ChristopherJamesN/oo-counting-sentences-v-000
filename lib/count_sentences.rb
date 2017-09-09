@@ -28,6 +28,7 @@ class String
       placeholder=(i.split("!"))
       if placeholder.length != 1
         count.push(placeholder[0])
+      end
     end
 
     count.each_with_index do |i,index|
