@@ -21,6 +21,10 @@ class String
       i.split("?")
     end
 
+    count.each do |i|
+      i.split("!")
+    end
+
     count.each_with_index do |i,index|
       if i == ""
         count.delete_at(index)
