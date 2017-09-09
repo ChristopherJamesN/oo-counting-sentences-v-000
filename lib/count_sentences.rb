@@ -19,6 +19,9 @@ class String
     count.each do |i|
       i.split('?')
     end
+    count.each do |i|
+      i.split('!')
+    end
     count.length
   end
 end
