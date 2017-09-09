@@ -18,7 +18,7 @@ class String
     count = self.split('.')
     count.each do |i|
       if i == ""
-        i.remove
+        count = count[i].remove
       end
     end
     count.length
