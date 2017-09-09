@@ -19,6 +19,7 @@ class String
 
     count.each do |i|
       placeholder=(i.split("?"))
+          binding.pry
     end
 
     count.each do |i|
@@ -33,7 +34,7 @@ class String
 
     count.length
 
-    binding.pry
+
   end
 end
 
