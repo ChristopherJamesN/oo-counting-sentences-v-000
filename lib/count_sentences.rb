@@ -20,7 +20,7 @@ class String
     count.each do |i|
       placeholder=(i.split("?"))
       if placeholder.length != 1
-        count.push(placeholder[1])
+        count.push(placeholder[0])
       end
     end
 
