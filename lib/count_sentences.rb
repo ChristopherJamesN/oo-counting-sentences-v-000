@@ -16,11 +16,23 @@ class String
 
   def count_sentences
     count = self.split('.')
+    
     count.each_with_index do |i,index|
       if i == ""
         count.delete_at(index)
       end
     end
+    
+    count.each_with_index do |i, index|
+      count[index]=i.split('?')
+    end
+
+    count.each_with_index do |i,index|
+      if i == ""
+        count.delete_at(index)
+      end
+    end
+    
     count.length
     binding.pry
   end
